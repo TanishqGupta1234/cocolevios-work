@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawaii Media Company</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      .hero {
+        background: url("/images/bg-honolulu.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(79, 79, 79, 0.5);
+        background-blend-mode: multiply;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .hero p {
+        font-size: 1.5rem;
+        font-style: italic;
+      }
+      .divider {
+        height: 30px;
+        background-color: white;
+        position: relative;
+      }
+      .divider::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #2faae8;
+        transform-origin: top right;
+        transform: skewX(-45deg);
+      }
+      .bg-opi-blue {
+        background-color: #2faae8;
+      }
+      .rounded-opi {
+        border-radius: 50px;
+      }
+      .text-opi-primary {
+        color: #2faae8;
+      }
+      .fs-13 {
+        font-size: 13px;
+      }
+      .fs-16 {
+        font-size: 16px;
+      }
+      .fs-18 {
+        font-size: 18px;
+      }
+      .fs-30 {
+        font-size: 30px;
+      }
+      .fs-48 {
+        font-size: 48px;
+      }
+      .fs-80 {
+        font-size: 80px !important;
+      }
+      .h-331px {
+        height: 331px;
+      }
+      .bg-opi-black {
+        background-color: #191919;
+      }
+      .text-opi-muted {
+        color: #ddd !important;
+      }
+      .border-opi-blue {
+        border-color: #2faae8 !important;
+      }
+      .text-shadow {
+        text-shadow: #00000080 0 1px 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/logo-header-opi.png"
+            alt="Oahu Publications Inc Logo"
+            height="40"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase fw-bolder">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index-main.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Advertiser.htm">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Advertiser.htm">Advertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.htm">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="column text-center">
+                    <p class="mt-5" style="font: normal normal 800 45px/50px Nunito Sans; letter-spacing: 0; color: #231F20; opacity: 1;">
+                        Honolulu Star-Advertiser
+                    </p>
+                    <hr class="mt-4" style="width: 87px; border: 3px solid #2FAAE8; opacity: 1; margin-left: auto; margin-right: auto;">
+                </div>
+            </div>
+            <div class="d-flex align-items-start mt-4" style="justify-content: center;">
+                <div class="me-4">
+                    <img src="images/image7.png" alt="" style="width: 188px; height: 300px; opacity: 1;">
+                </div>
+                <div>
+                    <p style="font-size: 16px; line-height: 1.5; color: #333; max-width: 600px; letter-spacing: 0px; color: #231F20; opacity: 1; font: italic Nunito Sans;">
+                        Honolulu Star-Advertiser printed its first <br> edition on June 7, 2010 after the merger of <br> the former Honolulu Star-Bulletin and The <br> Honolulu Advertiser newspapers. It is the <br> only daily newspaper on Oahu.
+                    </p>
+                    <div class="d-flex flex-column">
+                        <button class="mt-2" style="height: 40px; width: 270px; background: #2FAAE8; border-radius: 50px; border: none; color: white; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
+                            Visit Website
+                        </button>
+                        <button style="height: 40px; width: 270px; margin-top: 10px; background: #212121; border-radius: 50px; border: none; color: white; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
+                            See Retail Rate Card
+                        </button>
+                    </div>
+                  
+                </div>
+              
+            </div>
+            <div class="d-flex justify-content-between mt-5" style="max-width: 550px; margin: 10px 270px;">
+                <div style="max-width: 250px;">
+                    <p style="font-weight: bold; margin-left: 120px;">DAILY EDITIONS:</p>
+                    <div style="margin-top: 15px; opacity: 1; color: #231F20; letter-spacing: 0px; margin-left: 120px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
+                        <p>Main News</p>
+                        <p>Local</p>
+                        <p>Business</p>
+                        <p>Sports</p>
+                        <p>Crave (Wednesday only)</p>
+                        <p>National Report</p>
+                        <p>World Report</p>
+                        <p>Views and Voices</p>
+                        <p>Daily Break</p>
+                       
+                    </div>
+                </div>
+                <div style="max-width: 500px;">
+                    <p style="font-weight: bold; margin-left: 150px;">FRIDAY EDITIONS:</p>
+                    <div style="margin-top: 15px; opacity: 1; margin-left: 150px; color: #231F20; letter-spacing: 0px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
+                        <p>Main News</p>
+                        <p>Local</p>
+                        <p>Business</p>
+                        <p>Sports</p>
+                        <p>National Report</p>
+                        <p>World Report</p>
+                        <p>Views and Voices</p>
+                        <p>Daily Break</p>
+                        <p>Hawaii’s Cars</p>
+                        <p>Hawaii’s Classifieds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5" style="max-width: 500px; margin: 10px 270px;">
+                <div>
+                    <p style="font-weight: bold; margin-left: 120px;">SUNDAY EDITIONS:</p>
+                </div>
+                <div style="margin-top: 15px; margin-left: 120px; opacity: 1; color: #231F20; letter-spacing: 0px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
+                    <p>Main News</p>
+                    <p>Local</p>
+                    <p>Business</p>
+                    <p>Sports</p>
+                    <p>Travel</p>
+                    <p>National Report</p>
+                    <p>World Report</p>
+                    <p>Insights</p>
+                    <p>Views and Voices</p>
+                    <p>Comics</p>
+                    <p>Dining Out</p>
+                    <p>Hawaii Renovation</p>
+                    <p>Hawaii’s Classifieds</p>
+                    <p>Hawaii Homes</p>
+                    <p>Hawaii’s open house Guide</p>
+                    <p>Star Channels</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section
+      class="bg-opi-blue mt-5 py-5 d-flex flex-column align-items-center justify-content-center h-331px"
+    >
+      <h1 class="text-white fs-48 fw-bold">Want to learn more?</h1>
+      <button
+        type="button"
+        class="mt-4 btn btn-light btn-lg rounded-opi text-opi-primary fw-bold px-4 py-2"
+      >
+        Contact Us
+      </button>
+    </section>
+
+    <footer class="py-5 bg-opi-black text-opi-muted fs-16">
+      <div class="container">
+          <div class="d-flex justify-content-around">
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">SERVICES</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Formats</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Specifications</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">PUBLICATIONS</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Star-Advertiser</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">HILUXURY</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">MidWeek</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">The Garden Island</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Hawaii Tribune-Herald</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">West Hawaii Today</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">ADVERTISE</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Rate Cards</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Guidelines</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Submission Forms</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">THE COMPANY</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">About Us</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Contact Us</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Hawaii Marketplace</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">News & Awards</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5 pt-5 text-opi-muted fs-13">
+              <p class="m-0">
+                  ©️ Copyright 2024 Oahu Publications, Inc.
+                  <a href="#" class="fs-13 text-opi-muted">Privacy Policy</a> | <a href="#"
+                      class="text-opi-muted">Terms of Service</a>
+              </p>
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
