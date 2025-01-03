@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawaii Media Company</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Nunito Sans", sans-serif;
+      }
+      .hero {
+        background: url("/images/bg-honolulu.jpg") no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(79, 79, 79, 0.5);
+        background-blend-mode: multiply;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .hero p {
+        font-size: 1.5rem;
+        font-style: italic;
+      }
+      .divider {
+        height: 30px;
+        background-color: white;
+        position: relative;
+      }
+      .divider::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        background-color: #2faae8;
+        transform-origin: top right;
+        transform: skewX(-45deg);
+      }
+      .bg-opi-blue {
+        background-color: #2faae8;
+      }
+      .rounded-opi {
+        border-radius: 50px;
+      }
+      .text-opi-primary {
+        color: #2faae8;
+      }
+      .fs-13 {
+        font-size: 13px;
+      }
+      .fs-16 {
+        font-size: 16px;
+      }
+      .fs-18 {
+        font-size: 18px;
+      }
+      .fs-30 {
+        font-size: 30px;
+      }
+      .fs-48 {
+        font-size: 48px;
+      }
+      .fs-80 {
+        font-size: 80px !important;
+      }
+      .h-331px {
+        height: 331px;
+      }
+      .bg-opi-black {
+        background-color: #191919;
+      }
+      .text-opi-muted {
+        color: #ddd !important;
+      }
+      .border-opi-blue {
+        border-color: #2faae8 !important;
+      }
+      .text-shadow {
+        text-shadow: #00000080 0 1px 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/logo-header-opi.png"
+            alt="Oahu Publications Inc Logo"
+            height="40"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-uppercase fw-bolder">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index-main.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Advertiser.htm">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Advertiser.htm">Advertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.htm">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+      <div class="container position-absolute" style="bottom: 20%">
+        <div class="row">
+          <div class="col text-start" style="max-width: 610px">
+            <h1 class="fs-80 fw-bold text-shadow">Services</h1>
+            <p class="fs-30 text-shadow">Tailored to your brand's needs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <section class="py-5" style="align-items: center;">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- Display Ads Heading -->
+            <div
+              class="fw-bold text-start"
+              style="
+                max-width: 168px;
+                font-size: 30px;
+                line-height: 38px;
+                color: #231f20;
+                margin-left: 150px;
+              "
+            >
+              Display Ads
+            </div>
+            <!-- Horizontal Line -->
+            <hr
+              class="mt-2"
+              style="
+                width: 87px;
+                height: 0;
+                border: 3px solid #dddddd;
+                opacity: 1;
+                margin-left: 150px;
+              "
+            />
+            <!-- Buttons Section -->
+            <div
+              class="d-flex justify-content-start align-items-center mt-3"
+              style="margin-left: 150px; gap: 20px"
+            >
+              <button
+                class="btn fw-bold text-white"
+                style="
+                  width: 156px;
+                  height: 46px;
+                  background: #2faae8 0% 0% no-repeat padding-box;
+                  border-radius: 50px;
+                  font-size: 18px;
+                  line-height: 38px;
+                  text-align: center;
+                  text-shadow: 0px 1px 1px #00000080;
+                  opacity: 1;
+                  border: none;
+                "
+              >
+                Learn More
+              </button>
+
+              <button
+                class="btn fw-bold text-white"
+                style="
+                  width: 156px;
+                  height: 46px;
+                  background: #212121 0% 0% no-repeat padding-box;
+                  border-radius: 50px;
+                  font-size: 18px;
+                  line-height: 38px;
+                  text-align: center;
+                  opacity: 1;
+                  border: none;
+                "
+              >
+                Rate Card
+              </button>
+            </div>
+            <!-- Paragraph Section -->
+            <div class="mt-4">
+              <p
+                style="
+                  font-size: 16px;
+                  line-height: 1.5;
+                  color: #333;
+                  margin-left: 150px;
+                  max-width: 600px;
+                "
+              >
+                Reach audiences on our wide variety of publications and products
+                as they browse our websites and apps. Targeting capabilities
+                available which include demographics, location, and online
+                behavioral interests and patterns. Various ad sizes and formats
+                available to choose from.
+              </p>
+            </div>
+            <!-- Image Section -->
+            <div class="mt-4">
+              <img
+                src="images/image1.png"
+                style="
+                  position: absolute;
+                  top: 870px;
+                  left: 850px;
+                  width: 380px;
+                  height: 230px;
+                  background: transparent;
+                  opacity: 1;
+                "
+              />
+            </div>
+            <hr class="mt-5" style="border: 1px solid #dddddd; opacity: 1; max-width: 1000px; margin-left: 130px;" />
+          </div>
+        </div>
+        <div class="col">
+          <!-- Display Ads Heading -->
+          <div
+            class="fw-bold text-start"
+            style="
+              max-width: 168px;
+              font-size: 30px;
+              line-height: 38px;
+              color: #231f20;
+              margin-left: 150px;
+            "
+          >
+            EmailBlasts
+          </div>
+          <!-- Horizontal Line -->
+          <hr
+            class="mt-2"
+            style="
+              width: 87px;
+              height: 0;
+              border: 3px solid #dddddd;
+              opacity: 1;
+              margin-left: 150px;
+            "
+          />
+          <!-- Buttons Section -->
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="margin-left: 150px; gap: 20px"
+          >
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #2faae8 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                text-shadow: 0px 1px 1px #00000080;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Learn More
+            </button>
+
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #212121 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Rate Card
+            </button>
+          </div>
+          <!-- Paragraph Section -->
+          <div class="mt-4">
+            <p
+              style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-left: 150px;
+                max-width: 600px;
+              "
+            >
+              Exclusive and fully customizable email delivered to our audience
+              that opted-in to receive special offers and promotions. Chosen or
+              "target" audiences also available. Get in front of national,
+              regional and/or local audiences at a cost-effective rate.
+            </p>
+          </div>
+          <!-- Image Section -->
+          <div class="mt-4">
+            <img
+              src="images/image2.png"
+              style="
+                position: absolute;
+                top: 1160px;
+                left: 850px;
+                width: 380px;
+                height: 230px;
+                background: transparent;
+                opacity: 1;
+              "
+            />
+          </div>
+          <hr class="mt-5" style="border: 1px solid #dddddd; opacity: 1 ; max-width: 1000px; margin-left: 130px;" />
+        </div>
+        <div class="col">
+          <!-- Display Ads Heading -->
+          <div
+            class="fw-bold text-start"
+            style="
+              max-width: 168px;
+              font-size: 30px;
+              line-height: 38px;
+              color: #231f20;
+              margin-left: 150px;
+            "
+          >
+            Video
+          </div>
+          <!-- Horizontal Line -->
+          <hr
+            class="mt-2"
+            style="
+              width: 87px;
+              height: 0;
+              border: 3px solid #dddddd;
+              opacity: 1;
+              margin-left: 150px;
+            "
+          />
+          <!-- Buttons Section -->
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="margin-left: 150px; gap: 20px"
+          >
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #2faae8 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                text-shadow: 0px 1px 1px #00000080;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Learn More
+            </button>
+
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #212121 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Rate Card
+            </button>
+          </div>
+          <!-- Paragraph Section -->
+          <div class="mt-4">
+            <p
+              style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-left: 150px;
+                max-width: 600px;
+              "
+            >
+              Premium & scalable video across desktop, mobile websites, mobile
+              applications, Outstream, and Connected TV devices. Engage a
+              captive Star-Advertiser reader audience as videos pop open and
+              play within news stories. In-house video production services
+              availab
+            </p>
+          </div>
+          <!-- Image Section -->
+          <div class="mt-4">
+            <img
+              src="images/image3.png"
+              style="
+                position: absolute;
+                top: 1430px;
+                left: 850px;
+                width: 380px;
+                height: 230px;
+                background: transparent;
+                opacity: 1;
+              "
+            />
+          </div>
+          <hr class="mt-5" style="border: 1px solid #dddddd; opacity: 1 ; max-width: 1000px; margin-left: 130px;" />
+        </div>
+        <div class="col">
+          <!-- Display Ads Heading -->
+          <div
+            class="fw-bold text-start"
+            style="
+              max-width: 168px;
+              font-size: 30px;
+              line-height: 38px;
+              color: #231f20;
+              margin-left: 150px;
+            "
+          >
+            StreamingAudio
+          </div>
+          <!-- Horizontal Line -->
+          <hr
+            class="mt-2"
+            style="
+              width: 87px;
+              height: 0;
+              border: 3px solid #dddddd;
+              opacity: 1;
+              margin-left: 150px;
+            "
+          />
+          <!-- Buttons Section -->
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="margin-left: 150px; gap: 20px"
+          >
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #2faae8 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                text-shadow: 0px 1px 1px #00000080;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Learn More
+            </button>
+
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #212121 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Rate Card
+            </button>
+          </div>
+          <!-- Paragraph Section -->
+          <div class="mt-4">
+            <p
+              style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-left: 150px;
+                max-width: 600px;
+              "
+            >
+              Reach your audience as they listen to podcasts, digital radio,
+              Spotify and Pandora. Select from basic targeting or custom second-
+              and third-party <br />
+              audience options.
+            </p>
+          </div>
+          <!-- Image Section -->
+          <div class="mt-4">
+            <img
+              src="images/image4.png"
+              style="
+                position: absolute;
+                top: 1730px;
+                left: 850px;
+                width: 380px;
+                height: 230px;
+                background: transparent;
+                opacity: 1;
+              "
+            />
+          </div>
+          <hr class="mt-5" style="border: 1px solid #dddddd; opacity: 1 ; max-width: 1000px; margin-left: 130px;" />
+        </div>
+        <div class="col">
+          <!-- Display Ads Heading -->
+          <div
+            class="fw-bold text-start"
+            style="
+              max-width: 168px;
+              font-size: 30px;
+              line-height: 38px;
+              color: #231f20;
+              margin-left: 150px;
+            "
+          >
+            SocialMedia
+          </div>
+          <!-- Horizontal Line -->
+          <hr
+            class="mt-2"
+            style="
+              width: 87px;
+              height: 0;
+              border: 3px solid #dddddd;
+              opacity: 1;
+              margin-left: 150px;
+            "
+          />
+          <!-- Buttons Section -->
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="margin-left: 150px; gap: 20px"
+          >
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #2faae8 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                text-shadow: 0px 1px 1px #00000080;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Learn More
+            </button>
+
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #212121 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Rate Card
+            </button>
+          </div>
+          <!-- Paragraph Section -->
+          <div class="mt-4">
+            <p
+              style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-left: 150px;
+                max-width: 600px;
+              "
+            >
+              Take advantage of the full scope and power of social media.
+              Leverage <br />
+              OPI's social media platforms to add credibility and expand your
+              reach. <br />
+              Let us help you build your page, audience and e-commerce store!
+              <br />
+              Target your specific audience!
+            </p>
+          </div>
+          <!-- Image Section -->
+          <div class="mt-4">
+            <img
+              src="images/image5.png"
+              style="
+                position: absolute;
+                top: 2010px;
+                left: 850px;
+                width: 380px;
+                height: 230px;
+                background: transparent;
+                opacity: 1;
+              "
+            />
+          </div>
+          <hr class="mt-5" style="border: 1px solid #dddddd; opacity: 1 ; max-width: 1000px; margin-left: 130px;" />
+        </div>
+        <div class="col">
+          <!-- Display Ads Heading -->
+          <div
+            class="fw-bold text-start"
+            style="
+              max-width: 168px;
+              font-size: 30px;
+              line-height: 38px;
+              color: #231f20;
+              margin-left: 150px;
+            "
+          >
+            Print Ads
+          </div>
+          <!-- Horizontal Line -->
+          <hr
+            class="mt-2"
+            style="
+              width: 87px;
+              height: 0;
+              border: 3px solid #dddddd;
+              opacity: 1;
+              margin-left: 150px;
+            "
+          />
+          <!-- Buttons Section -->
+          <div
+            class="d-flex justify-content-start align-items-center mt-3"
+            style="margin-left: 150px; gap: 20px"
+          >
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #2faae8 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                text-shadow: 0px 1px 1px #00000080;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Learn More
+            </button>
+
+            <button
+              class="btn fw-bold text-white"
+              style="
+                width: 156px;
+                height: 46px;
+                background: #212121 0% 0% no-repeat padding-box;
+                border-radius: 50px;
+                font-size: 18px;
+                line-height: 38px;
+                text-align: center;
+                opacity: 1;
+                border: none;
+              "
+            >
+              Rate Card
+            </button>
+          </div>
+          <!-- Paragraph Section -->
+          <div class="mt-4">
+            <p
+              style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #333;
+                margin-left: 150px;
+                max-width: 600px;
+              "
+            >
+              Reach audiences on our wide variety of printed publications
+              including the <br />
+              Honolulu Star-Advertiser, MidWeek, The Garden Island, Hawaii
+              Tribune-Herald, <br />
+              West Hawaii Today, and many more. Various ad sizes and formats
+              <br />
+              available to choose from.
+            </p>
+          </div>
+          <!-- Image Section -->
+          <div class="mt-4">
+            <img
+              src="images/imagd6.png"
+              style="
+                position: absolute;
+                top: 2330px;
+                left: 850px;
+                width: 380px;
+                height: 230px;
+                background: transparent;
+                opacity: 1;
+              "
+            />
+          </div>
+      
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-opi-blue mt-5 py-5 d-flex flex-column align-items-center justify-content-center h-331px"
+    >
+      <h1 class="text-white fs-48 fw-bold">Want to learn more?</h1>
+      <button
+        type="button"
+        class="mt-4 btn btn-light btn-lg rounded-opi text-opi-primary fw-bold px-4 py-2"
+      >
+        Contact Us
+      </button>
+    </section>
+
+    <footer class="py-5 bg-opi-black text-opi-muted fs-16">
+      <div class="container">
+          <div class="d-flex justify-content-around">
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">SERVICES</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Formats</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Specifications</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">PUBLICATIONS</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Star-Advertiser</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">HILUXURY</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">MidWeek</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">The Garden Island</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Hawaii Tribune-Herald</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">West Hawaii Today</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">ADVERTISE</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Rate Cards</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Guidelines</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Ad Submission Forms</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="">
+                  <h5 class="fs-16 fw-bolder">THE COMPANY</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">About Us</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Contact Us</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">Hawaii Marketplace</a>
+                      </li>
+                      <li class="nav-item mb-2">
+                          <a href="#" class="nav-link p-0 text-opi-muted">News & Awards</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="d-flex justify-content-center mt-5 pt-5 text-opi-muted fs-13">
+              <p class="m-0">
+                  ©️ Copyright 2024 Oahu Publications, Inc.
+                  <a href="#" class="fs-13 text-opi-muted">Privacy Policy</a> | <a href="#"
+                      class="text-opi-muted">Terms of Service</a>
+              </p>
+          </div>
+      </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
