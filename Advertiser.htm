@@ -102,6 +102,14 @@
       .text-shadow {
         text-shadow: #00000080 0 1px 1px;
       }
+        .custom-font {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight: 900; /* Custom weight */
+            letter-spacing: 0; /* Custom letter spacing */
+            color: #231F20; /* Custom color */
+            opacity: 1; /* Opacity */
+        }
+
     </style>
   </head>
   <body>
@@ -150,93 +158,85 @@
       </div>
     </nav>
 
-    
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="column text-center">
-                    <p class="mt-5" style="font: normal normal 800 45px/50px Nunito Sans; letter-spacing: 0; color: #231F20; opacity: 1;">
+                <div class="col text-center">
+                    <p class="mt-5 font-weight-bold text-dark display-4 display-md-3 display-lg-2 custom-font">
                         Honolulu Star-Advertiser
                     </p>
-                    <hr class="mt-4" style="width: 87px; border: 3px solid #2FAAE8; opacity: 1; margin-left: auto; margin-right: auto;">
+                    <hr class="mt-4 mx-auto" style="width: 10%; border: 5px solid #2FAAE8; opacity: 1;">
                 </div>
             </div>
-            <div class="d-flex align-items-start mt-4" style="justify-content: center;">
+            <div class="d-flex align-items-start mt-4 justify-content-center flex-wrap">
                 <div class="me-4">
-                    <img src="images/image7.png" alt="" style="width: 188px; height: 300px; opacity: 1;">
+                    <img src="images/image7.png" alt="" class="img-fluid" style="max-width: 250px; height: auto; opacity: 1;">
                 </div>
-                <div>
-                    <p style="font-size: 16px; line-height: 1.5; color: #333; max-width: 600px; letter-spacing: 0px; color: #231F20; opacity: 1; font: italic Nunito Sans;">
+                <div class="ms-3">
+                    <p class="font-italic" style="font-size: 16px; line-height: 1.5; color: #231F20; max-width: 600px;">
                         Honolulu Star-Advertiser printed its first <br> edition on June 7, 2010 after the merger of <br> the former Honolulu Star-Bulletin and The <br> Honolulu Advertiser newspapers. It is the <br> only daily newspaper on Oahu.
                     </p>
                     <div class="d-flex flex-column">
-                        <button class="mt-2" style="height: 40px; width: 270px; background: #2FAAE8; border-radius: 50px; border: none; color: white; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
+                        <button class="mt-2 btn" style="height: 40px; background-color: #2FAAE8; color: white; width: 270px; border-radius: 50px; border: none; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
                             Visit Website
                         </button>
-                        <button style="height: 40px; width: 270px; margin-top: 10px; background: #212121; border-radius: 50px; border: none; color: white; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
+                        <button class="btn btn-dark" style="height: 40px; width: 270px; margin-top: 10px; border-radius: 50px; border: none; font-weight: bold; text-shadow: 0px 1px 1px #00000080; opacity: 1;">
                             See Retail Rate Card
                         </button>
-                    </div>
-                  
-                </div>
-              
+                    </div>  
+                </div> 
             </div>
-            <div class="d-flex justify-content-between mt-5" style="max-width: 550px; margin: 10px 270px;">
-                <div style="max-width: 250px;">
-                    <p style="font-weight: bold; margin-left: 120px;">DAILY EDITIONS:</p>
-                    <div style="margin-top: 15px; opacity: 1; color: #231F20; letter-spacing: 0px; margin-left: 120px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
-                        <p>Main News</p>
-                        <p>Local</p>
-                        <p>Business</p>
-                        <p>Sports</p>
-                        <p>Crave (Wednesday only)</p>
-                        <p>National Report</p>
-                        <p>World Report</p>
-                        <p>Views and Voices</p>
-                        <p>Daily Break</p>
-                       
+            <div class="container">
+                <div class="d-flex justify-content-between mt-5 flex-wrap" style="max-width: 550px; margin: 10px auto;">
+                    <div class="col-md-6 mb-4">
+                        <p class="font-weight-bold mb-2" style="font-weight: 700;">DAILY EDITIONS:</p>
+                        <div class="mt-3 text-dark" style="font-size: 15px; line-height: 0.5;">
+                            <p>Main News</p>
+                            <p>Local</p>
+                            <p>Business</p>
+                            <p>Sports</p>
+                            <p>Crave (Wednesday only)</p>
+                            <p>National Report</p>
+                            <p>World Report</p>
+                            <p>Views and Voices</p>
+                            <p>Daily Break</p>
+                            <p>Hawaii’s Classifieds</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <p class="font-weight-bold mb-2" style="font-weight: 700;">FRIDAY EDITIONS:</p>
+                        <div class="mt-3 text-dark" style="font-size: 15px; line-height: 0.5;">
+                            <p>Main News</p>
+                            <p>Local</p>
+                            <p>Business</p>
+                            <p>Sports</p>
+                            <p>National Report</p>
+                            <p>World Report</p>
+                            <p>Views and Voices</p>
+                            <p>Daily Break</p>
+                            <p>Hawaii’s Cars</p>
+                            <p>Hawaii’s Classifieds</p>
+                        </div>
                     </div>
                 </div>
-                <div style="max-width: 500px;">
-                    <p style="font-weight: bold; margin-left: 150px;">FRIDAY EDITIONS:</p>
-                    <div style="margin-top: 15px; opacity: 1; margin-left: 150px; color: #231F20; letter-spacing: 0px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
-                        <p>Main News</p>
-                        <p>Local</p>
-                        <p>Business</p>
-                        <p>Sports</p>
-                        <p>National Report</p>
-                        <p>World Report</p>
-                        <p>Views and Voices</p>
-                        <p>Daily Break</p>
-                        <p>Hawaii’s Cars</p>
-                        <p>Hawaii’s Classifieds</p>
+                <div class="d-flex justify-content-between mt-4 flex-wrap" style="max-width: 550px; margin: 10px auto;">
+                    <div class="col-md-6 mb-4">
+                        <p class="font-weight-bold  mb-2" style="font-weight: 700;">SUNDAY EDITIONS:</p>
+                        <div class="mt-3 text-dark" style="font-size: 15px; line-height: 0.5;">
+                            <p>Main News</p>
+                            <p>Local</p>
+                            <p>Business</p>
+                            <p>Sports</p>
+                            <p>National Report</p>
+                            <p>World Report</p>
+                            <p>Views and Voices</p>
+                            <p>Daily Break</p>
+                            <p>Hawaii’s Cars</p>
+                            <p>Hawaii’s Classifieds</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="mt-5" style="max-width: 500px; margin: 10px 270px;">
-                <div>
-                    <p style="font-weight: bold; margin-left: 120px;">SUNDAY EDITIONS:</p>
-                </div>
-                <div style="margin-top: 15px; margin-left: 120px; opacity: 1; color: #231F20; letter-spacing: 0px; text-align: left; font: normal normal normal 15px/7px Nunito Sans;">
-                    <p>Main News</p>
-                    <p>Local</p>
-                    <p>Business</p>
-                    <p>Sports</p>
-                    <p>Travel</p>
-                    <p>National Report</p>
-                    <p>World Report</p>
-                    <p>Insights</p>
-                    <p>Views and Voices</p>
-                    <p>Comics</p>
-                    <p>Dining Out</p>
-                    <p>Hawaii Renovation</p>
-                    <p>Hawaii’s Classifieds</p>
-                    <p>Hawaii Homes</p>
-                    <p>Hawaii’s open house Guide</p>
-                    <p>Star Channels</p>
                 </div>
             </div>
-        </div>
     </section>
     
     <section
